@@ -17,6 +17,11 @@ b=(byte)'n';
 			sb.insert(4, '_');
 			return sb.toString();
 		});
-
+"errors fixed"
+int n=68;
+byte b=127;
+char c='B';
+b=(byte)n;
+c=(char)n;
 		return streamOut.collect(java.util.stream.Collectors.joining(separator));
 	}
